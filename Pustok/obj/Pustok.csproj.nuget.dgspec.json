@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taleh\\source\\repos\\Pustok\\Pustok\\Pustok.csproj": {}
+    "C:\\Users\\S.alhsynva\\Desktop\\Pustok\\Pustok\\Pustok.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taleh\\source\\repos\\Pustok\\Pustok\\Pustok.csproj": {
+    "C:\\Users\\S.alhsynva\\Desktop\\Pustok\\Pustok\\Pustok.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taleh\\source\\repos\\Pustok\\Pustok\\Pustok.csproj",
+        "projectUniqueName": "C:\\Users\\S.alhsynva\\Desktop\\Pustok\\Pustok\\Pustok.csproj",
         "projectName": "Pustok",
-        "projectPath": "C:\\Users\\Taleh\\source\\repos\\Pustok\\Pustok\\Pustok.csproj",
-        "packagesPath": "C:\\Users\\Taleh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taleh\\source\\repos\\Pustok\\Pustok\\obj\\",
+        "projectPath": "C:\\Users\\S.alhsynva\\Desktop\\Pustok\\Pustok\\Pustok.csproj",
+        "packagesPath": "C:\\Users\\S.alhsynva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.alhsynva\\Desktop\\Pustok\\Pustok\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Taleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\S.alhsynva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.26, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.26, )"
@@ -77,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
