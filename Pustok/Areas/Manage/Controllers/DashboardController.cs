@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pustok.Areas.Manage.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "SuperAdmin")]
     [Area("manage")]
     public class DashboardController : Controller
     {

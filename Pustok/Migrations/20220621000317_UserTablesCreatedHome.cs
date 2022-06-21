@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Pustok.Migrations
 {
-    public partial class UsersTablesCreated : Migration
+    public partial class UserTablesCreatedHome : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

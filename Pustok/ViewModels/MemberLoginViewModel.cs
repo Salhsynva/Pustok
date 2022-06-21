@@ -11,11 +11,11 @@ namespace Pustok.ViewModels
         [Required]
         [MaxLength(25)]
         [MinLength(4)]
-        public string UserName { get; set; }
+        public string LoginUsername { get; set; }
         [Required]
         [MaxLength(25)]
         [MinLength(4)]
         [DataType(DataType.Password)]
-        public string PassWord { get; set; }
+        public string LoginPassword { get; set; }
     }
 }

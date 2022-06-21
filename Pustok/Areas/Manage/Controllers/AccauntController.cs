@@ -47,7 +47,7 @@ namespace Pustok.Areas.Manage.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            var user = _userManager.Users.FirstOrDefault(x => x.UserName == adminVM.Username);
+            var user = _userManager.Users.FirstOrDefault(x =>x.IsAdmin && x.UserName == adminVM.Username);
             if (user==null)
             {
                 ModelState.AddModelError("", "Username or Password is incorrect");

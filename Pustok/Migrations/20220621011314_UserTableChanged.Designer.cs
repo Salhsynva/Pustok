@@ -10,8 +10,8 @@ using Pustok.DAL;
 namespace Pustok.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220620092050_UsersTablesCreated")]
-    partial class UsersTablesCreated
+    [Migration("20220621011314_UserTableChanged")]
+    partial class UserTableChanged
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -425,6 +425,9 @@ namespace Pustok.Migrations
 
                     b.Property<string>("Fullname")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAdmin")
+                        .HasColumnType("bit");
 
                     b.HasDiscriminator().HasValue("AppUser");
                 });
